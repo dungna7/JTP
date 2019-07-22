@@ -10,7 +10,7 @@ class ImageLogo extends Component {
     }
     render() {
         return (
-            <Image source={require('./../../asset/img/top_logo.png')}
+            <Image source={require('./../../assets/img/top_logo.png')}
                 style={{ width: this.state.width, height: this.state.height, resizeMode: "contain", }}>
             </Image>
         )

@@ -9,7 +9,7 @@ import {
 class Indicator extends Component {
     render() {
         return (
-            <ImageBackground source={require('../../asset/img/top_slide.jpg')} style={styles.container}>
+            <ImageBackground source={require('./../../assets/img/top_slide.jpg')} style={styles.container}>
                 <View style={[styles.container, styles.horizontal]}>
                     <ActivityIndicator size="large" color="#0000ff" />
                 </View>

@@ -162,9 +162,9 @@ class Home extends Component {
         } else {
             return (
                 <View styles={styles.container} onLayout={this.onLayout} >
-                    <ImageBackground source={require('../../asset/img/top_slide.jpg')} style={styles.container}>
-                        <ScrollView onContentSizeChange={this.onContentSizeChange}>
-                            <View >
+                    <ImageBackground source={require('./../../assets/img/top_slide.jpg')} style={styles.container}>
+                        <ScrollView styles={styles.center} onContentSizeChange={this.onContentSizeChange}>
+                            <View styles={styles.groupInput}>
                                 <ImageLogo style={styles.imgLogo} width={this.state.screenWidth} height={this.state.imgHeight} ></ImageLogo>
                                 {this._renderCancel()}
                                 <TextInput style={styles.input}
@@ -211,6 +211,14 @@ const styles = StyleSheet.create({
     container: {
         width: '100%',
         height: '100%',
+    },
+    groupInput:{
+        flex: 1,
+        alignItems: 'stretch',
+    },
+    center : {
+        flexDirection: 'row',
+        alignContent: 'center',
     },
     imgLogo: {
         flex: 1,
