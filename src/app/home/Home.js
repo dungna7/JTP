@@ -3,7 +3,7 @@ import { Actions } from 'react-native-router-flux';
 import ImageLogo from './../imgLogo/ImageLogo';
 import { Icon } from 'native-base';
 import { Dimensions, ImageBackground, View, Text, TouchableOpacity, TextInput, StyleSheet, ScrollView } from 'react-native';
-import { string } from '../../locales/i18n';
+import { string } from './../../locales/i18n';
 import Indicator from './../Indicator/Indicator';
 import auth from './../../service/auth';
 import Constant from './../../config/Constant';
