@@ -1,0 +1,33 @@
+{
+  "name": "JTP",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.5.1",
+    "native-base": "^2.12.2",
+    "react": "16.8.6",
+    "react-native": "0.60.4",
+    "react-native-axios": "^0.17.1",
+    "react-native-i18n": "^2.0.15",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-sqlite-storage": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.8.0",
+    "eslint": "6.1.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
